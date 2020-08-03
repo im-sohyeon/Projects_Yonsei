@@ -1,10 +1,12 @@
 
-LEGO - PULLING CUPS
+LEGO PROJECT - PULLING CUPS
 ===
-Making EV3 to pull cups over black square line
+Making EV3 LEGO to work pulling cups over black square line
 ---
-### 1. 목차
->ㅇㄹㅇ
-
-ㅇㄹㅇ
-## 2. ㅇㄹㅇ
+### Contents
+>1. Introduction of this project
+2. Algorithm
+3. How to build code
+4. Results
+5. What do i learn?
+### 1. Introduction of the project
