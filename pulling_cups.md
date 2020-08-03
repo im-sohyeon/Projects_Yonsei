@@ -1,7 +1,7 @@
 
 LEGO PROJECT - PULLING CUPS
 ===
-Making EV3 LEGO to pull cups over black square lines
+Making LEGO EV3 to pull cups over black square lines
 ---
 ### Contents
 >1. Introduction of this project
