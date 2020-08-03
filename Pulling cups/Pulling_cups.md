@@ -12,3 +12,4 @@ Making LEGO EV3 to pull cups over black square lines
 ### 1. Introduction of the challenge
 > This chanllenge is to make LEGO EV3 to pull cups which is located randomly to the out of black square lines as shown below.
 ![IMG_0577.jpg](https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/IMG_0577.jpg){ width=50% }
+<img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/IMG_0577.jpg" width="40px">
