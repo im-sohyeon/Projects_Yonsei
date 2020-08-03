@@ -19,8 +19,8 @@ Making LEGO EV3 to pull cups over black square lines
 > Go straight until meet black line ➡️ Turn back (right side) ➡️ Go straight until meet black line  ➡️ Turn back (left side) ...(repeat)
 
 ##### ii) Holding cups
-> For pulling cups, it is no need to hold each cups one by one for making possibility higher ~~~~~
-For this, hands of EV3 is set as "open state" all the time to pull all cups which is located in same line.\
+> It is no need to hold each cups one by one in this challenge for making high possibility in catching all cups in a same line.
+For this, hands of EV3 is set as "open state" all the time.
 
 ##### iii) Pulling cups over black lines
 > Make EV3 to move until black lines by using colour sensor.
