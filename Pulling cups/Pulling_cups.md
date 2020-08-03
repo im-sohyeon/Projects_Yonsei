@@ -16,6 +16,8 @@ Making LEGO EV3 to pull cups over black square lines
 ### 2. Algorithm
 i) Moving within the black lines
 > Basically, the movement of the EV3 is made as :  
-> Go straight until meet black line ➡️ Turn right 180 degrees  ➡️ Go straight until meet black line  ➡️ Turn left 180 degrees ...(repeat)
+> Go straight until meet black line ➡️ Turn back (right side) ➡️ Go straight until meet black line  ➡️ Turn back (left side) ...(repeat)
 
 ii) Holding cups + Pulling
+> For pulling cups, it is no need to hold each cups one by one for making possibility higher ~~~~~
+For this, hands of EV3 is set as "open state" all the time to pull all cups which is located in same line.
