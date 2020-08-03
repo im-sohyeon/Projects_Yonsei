@@ -10,7 +10,7 @@ Making LEGO EV3 to pull cups over black square lines
 >3. How to build code
 >4. Results
 >5. What do i learn?
-### 0. Hardware
+### 0. Hardware  
 > EV3 is designed with two hands as efficient way to pull / hold something as shown below.  
 > Colour sensor is set in the bottom of the EV3 so that it can recognises the colours below it.  
 > Ultrasonic sensor is set in the front of the EV3 so that it can recognises something in front.  
