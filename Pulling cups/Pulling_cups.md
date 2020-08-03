@@ -16,4 +16,5 @@ Making LEGO EV3 to pull cups over black square lines
 ### 2. Algorithm
 >i) Moving
 >>kjk
+
 >ii) Holding cups + Pulling
