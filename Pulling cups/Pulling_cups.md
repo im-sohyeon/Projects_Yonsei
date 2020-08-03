@@ -26,3 +26,5 @@ For this, hands of EV3 is set as "open state" all the time.
 > Make EV3 to move until black lines by using colour sensor.
 > If colour sensor recognises the black line, EV3 stops to move
 > so that cups, which is inside of EV3's hand, can be located out of the black line.
+
+### 3. How to build code
