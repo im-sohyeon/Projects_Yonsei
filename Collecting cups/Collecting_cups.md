@@ -37,13 +37,13 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 
 
 ##### ii) Holding and un-holding obstacle(cup) with ultrasonic sensor
-> Measure the extent of reflected light to see which variable of reflected light intensity can be used for deciding to turn right or left.
-> The reflected light intensity can be shown in the screen of EV3 Classroom.
-> Image below shows that how intensity of reflected light can be measured.  
-> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/Screen%20Shot%202020-08-04%20at%2013.16.18.png" width="650px" height="100px">  
-> _colour sensor is connected to 3, ultrasonic sensor is connected to 4, and two motors are connected to A and B (D is for controlling hands)_
+> Ultrasonic sensor can recognises the distance from obstacles.  
+> 1. IF DISTANCE OF OBSTACLES(CUP) IS LESS THAN 2CM  
+> Set "holding" function to the motor of hands to turn 200 degrees.  
+> 2. IF DISTANCE OF OBSTACLES(CUP) IS OVER 2CM  
+> "do nothing" to the motor of hands    
 
-##### iii) Holding obstacle(cup) from ultrasonic sensor
+##### iii) colour sensor?
 
 ### 3. How to build code
 > The code can be built as two ways :
