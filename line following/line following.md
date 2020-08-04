@@ -34,7 +34,7 @@ Making LEGO EV3 to move following black line
 > The reflected light intensity can be shown in the screen of EV3 Classroom.
 
 ### 3. How to build code
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/Screen%20Shot%202020-07-28%20at%2010.00.07.png" width="550px" height="450px">
+><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0249.JPG" width="350px" height="300px">
 ><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/Screen%20Shot%202020-07-28%20at%2010.00.24.png" width="550px" height="550px">
 
 ### 4. Results
