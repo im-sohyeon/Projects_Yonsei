@@ -32,7 +32,7 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > 2. IF ROBOT DID NOT FIND CUPS  
 > Go straight ➡️ Keep going to go until black lines ➡️ Stop movement ➡️ Go backwards until red line ➡️ Turn right some degrees to start to find another cups with another routes    
 > This algorithm of movement can be easily understood with figure below:  
-> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/Screen%20Shot%202020-08-04%20at%2013.16.18.png" width="650px" height="100px">  
+> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/Screen%20Shot%202020-08-04%20at%2016.07.39.png" width="350px" height="350px">  
 
 
 ##### ii) Holding and un-holding obstacle(cup) with ultrasonic sensor
