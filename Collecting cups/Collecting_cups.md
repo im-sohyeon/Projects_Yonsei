@@ -57,7 +57,9 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 ### 3. How to build code
 > Here are some "define"s to make whole code simple.  
 ><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/defines.png" width="350px" height="550px">
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/define whole.png" width="350px" height="550px">
+><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/define whole.png" width="350px" height="550px">  
+> The figure shown below is whole code for executing collecting robot.  
+><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/wholecode.png" width="450px" height="750px">
 
 ### 4. Results
 
