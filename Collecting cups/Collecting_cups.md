@@ -55,8 +55,8 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > go straight even it meets red line (starting)  
 
 ### 3. How to build code
->   
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0249.JPG" width="350px" height="250px">
+> Here is some "define"s to make whole code simple. 
+><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/defines.png" width="150px" height="250px">
 
 
 ### 4. Results
