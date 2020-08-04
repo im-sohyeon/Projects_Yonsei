@@ -22,7 +22,7 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 ### 1. Instruction of the challenge
 > This chanllenge is to make LEGO EV3 to go back to the red-lined home with holding obstacle(cup).  
 >
-> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0294.JPG" width="550px">
+> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/IMG_0580.jpg" width="550px">
 ### 2. Algorithm
 ##### i) Moving all area for finding obstacles(cups)
 > Basically, the movement of the EV3 is made as :  
