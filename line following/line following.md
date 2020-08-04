@@ -20,13 +20,13 @@ Making LEGO EV3 to move following black line
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/IMG_9276.JPG" width="550px" height="400px">
 
 ### 1. Instruction of the challenge
-> This chanllenge is to make LEGO EV3 to move following black line with using colour sensor
+> This chanllenge is to make LEGO EV3 to move following black line with using colour sensor.
 >
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0294.JPG" width="550px">
 ### 2. Algorithm
 ##### i) Moving left and right as following black lines
 > Basically, the movement of the EV3 is made as :  
-> Move left and right around the black line based on the data(reflected light) from the colour sensor  
+> Move left and right around the black line based on the data(reflected light) from the colour sensor.  
 > Go right side if intensity of reflected light is less than some extent ➡️ Go left side if intensity of reflected light is more than some extent ...(repeat)
 
 ##### ii) Get data(reflected light) from colour sensor
