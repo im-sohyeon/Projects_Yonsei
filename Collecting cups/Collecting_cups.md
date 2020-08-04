@@ -49,9 +49,9 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > "stop movement" and "go backwards" until red line  
 > 2. IF COLOUR SENSOR READ READ(home line),  
 > In the case of "Red", variable was used to excute two cases in the code:  
-> _first red meeting_ :  
+> + _first red meeting_ :  
 > "stop movement" ➡️ move backwards a bit for putting cup within red line ➡️ un-holding cup ➡️ move backwards a bit not to hold the cup which already has been hold ➡️ turn right some degree for starting to go another route  
-> _second red meeting_ :  
+> + _second red meeting_ :  
 > go straight even it meets red line (starting)  
 
 ### 3. How to build code
