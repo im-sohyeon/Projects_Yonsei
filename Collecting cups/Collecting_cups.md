@@ -25,9 +25,15 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/IMG_0580.jpg" width="550px">
 ### 2. Algorithm
 ##### i) Moving all area for finding obstacles(cups)
-> Basically, the movement of the EV3 is made as :  
-> Move left and right around the black line based on the data(reflected light) from the colour sensor.  
-> Go right side if intensity of reflected light is less than some extent ➡️ Go left side if intensity of reflected light is more than some extent ...(repeat)
+> The movement was made to go through all areas within black line to find each cups.  
+> There are two cases in making movements.  
+> 1. IF ROBOT FOUND CUPS  
+> Go straight ➡️ Holding cup if ultrasonic sensor recognises obstacle in front ➡️ Go backwards until meets red line(from colour sensor) ➡️ Un-holding cup within red-lined home ➡️ Turn right some degress to go another routes for finding another cup  
+> 2. IF ROBOT DID NOT FIND CUPS  
+> Go straight ➡️ Keep going to go until black lines ➡️ Stop movement ➡️ Go backwards until red line ➡️ Turn right some degrees to start to find another cups with another routes    
+> This algorithm of movement can be easily understood with figure below:  
+> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/Screen%20Shot%202020-08-04%20at%2013.16.18.png" width="650px" height="100px">  
+
 
 ##### ii) Holding and un-holding obstacle(cup) with ultrasonic sensor
 > Measure the extent of reflected light to see which variable of reflected light intensity can be used for deciding to turn right or left.
