@@ -55,16 +55,9 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > go straight even it meets red line (starting)  
 
 ### 3. How to build code
-> The code can be built as two ways :
-> One is making on brick program in the EV3 robot. It is the way to put code directly in the EV3.  
-> Brick program can be built as shown below.  
+>   
 ><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0249.JPG" width="350px" height="250px">
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0250.JPG" width="350px" height="250px">
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0251.JPG" width="350px" height="250px">
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0252.JPG" width="350px" height="250px">  
-> The other way is making code in the EV3 Classroom.  
-> This code is shown below.  
-> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/Screen%20Shot%202020-08-04%20at%2013.15.46.png" width="650px" height="350px">  
+
 
 ### 4. Results
 
