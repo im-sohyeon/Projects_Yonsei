@@ -15,7 +15,7 @@ Making LEGO EV3 to pull cups over black square lines
 > It has used three motors, two for wheels and one for holding/un-holding hands.  
 > It has used two sensors, one is colour sensor and the other is ultrasonic sensor.  
 >  - Colour sensor is set in the bottom of the EV3 so that it can recognises the colours below it.  
->  - Ultrasonic sensor is set in the front of the EV3 so that it can recognises something in front.  
+>  - Ultrasonic sensor is set in the front of the EV3 so that it can figure out obstacles in front.  
 >
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/IMG_9276.JPG" width="550px" height="400px">
 
