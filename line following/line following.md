@@ -24,18 +24,14 @@ Making LEGO EV3 to move following black line
 >
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0294.JPG" width="550px">
 ### 2. Algorithm
-##### i) Moving within the black lines
+##### i) Moving left and right as following black lines
 > Basically, the movement of the EV3 is made as :  
-> Go straight until meet black line ➡️ Turn back (right side) ➡️ Go straight until meet black line  ➡️ Turn back (left side) ...(repeat)
+> Move left and right around the black line based on the data(reflected light) from the colour sensor
+> Go right side if reflected light is less than some extent ➡️ Go left side if reflected light is more than some extent ...(repeat)
 
-##### ii) Holding cups
-> It is no need to hold each cups one by one in this challenge for making high possibility in catching all cups in a same line.
-For this, hands of EV3 is set as "open state" all the time.
-
-##### iii) Pulling cups over black lines
-> Make EV3 to move until black lines by using colour sensor.
-> If colour sensor recognises the black line, EV3 stops to move
-> so that cups, which is inside of EV3's hand, can be located out of the black line.
+##### ii) Get data(reflected light) from colour sensor
+> Measure the extent of reflected light to see which variable of reflected light intensity can be used for deciding to turn right or left.
+> The reflected light intensity can be shown in the screen of EV3 Classroom.
 
 ### 3. How to build code
 ><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/Screen%20Shot%202020-07-28%20at%2010.00.07.png" width="550px" height="450px">
