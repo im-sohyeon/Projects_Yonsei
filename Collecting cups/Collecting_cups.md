@@ -29,12 +29,14 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > Move left and right around the black line based on the data(reflected light) from the colour sensor.  
 > Go right side if intensity of reflected light is less than some extent ➡️ Go left side if intensity of reflected light is more than some extent ...(repeat)
 
-##### ii) Finding obstacle(cup) from ultrasonic sensor
+##### ii) Holding and un-holding obstacle(cup) with ultrasonic sensor
 > Measure the extent of reflected light to see which variable of reflected light intensity can be used for deciding to turn right or left.
 > The reflected light intensity can be shown in the screen of EV3 Classroom.
 > Image below shows that how intensity of reflected light can be measured.  
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/Screen%20Shot%202020-08-04%20at%2013.16.18.png" width="650px" height="100px">  
 > _colour sensor is connected to 3, ultrasonic sensor is connected to 4, and two motors are connected to A and B (D is for controlling hands)_
+
+##### iii) Holding obstacle(cup) from ultrasonic sensor
 
 ### 3. How to build code
 > The code can be built as two ways :
