@@ -34,6 +34,7 @@ Making LEGO EV3 to move following black line
 > The reflected light intensity can be shown in the screen of EV3 Classroom.
 > Image below shows that how intensity of reflected light can be measured.  
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/Screen%20Shot%202020-08-04%20at%2013.16.18.png" width="650px" height="100px"> 
+> _colour sensor is connected to 3, ultrasonic sensor is connected to 4, and two motors are connected to A and B (D is for controlling hands)_
 
 ### 3. How to build code
 > The code can be built as two ways :
