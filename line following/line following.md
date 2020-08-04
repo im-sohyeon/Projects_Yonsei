@@ -26,8 +26,8 @@ Making LEGO EV3 to move following black line
 ### 2. Algorithm
 ##### i) Moving left and right as following black lines
 > Basically, the movement of the EV3 is made as :  
-> Move left and right around the black line based on the data(reflected light) from the colour sensor
-> Go right side if reflected light is less than some extent ➡️ Go left side if reflected light is more than some extent ...(repeat)
+> Move left and right around the black line based on the data(reflected light) from the colour sensor  
+> Go right side if intensity of reflected light is less than some extent ➡️ Go left side if intensity of reflected light is more than some extent ...(repeat)
 
 ##### ii) Get data(reflected light) from colour sensor
 > Measure the extent of reflected light to see which variable of reflected light intensity can be used for deciding to turn right or left.
