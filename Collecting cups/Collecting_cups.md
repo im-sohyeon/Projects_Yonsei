@@ -28,9 +28,9 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > The movement was made to go through all areas within black line to find each cups.  
 > Two cases were made to make successful movements.  
 > 1. IF ROBOT FOUND CUPS  
-> Go straight ➡️ Holding cup if ultrasonic sensor recognises obstacle in front ➡️ Stop movement ➡️ Go backwards until meets red line(from colour sensor) ➡️ Un-holding cup within red-lined home ➡️ Turn right some degress to go another routes for finding another cup  
+> Go straight ➡️ Holding cup if ultrasonic sensor recognises obstacle in front ➡️ Stop movement ➡️ Go backwards until meets red line(from colour sensor) ➡️ Un-holding cup within red-lined home ➡️ Turn right some degress to go another route for finding another cup  
 > 2. IF ROBOT DID NOT FIND CUPS  
-> Go straight ➡️ Keep going to go until black lines(boundary line) ➡️ Stop movement ➡️ Go backwards until red line(with colour sensor) ➡️ Turn right some degrees to start to find another cups with another routes    
+> Go straight ➡️ Keep going to go until black lines(boundary line) ➡️ Stop movement ➡️ Go backwards until red line(with colour sensor) ➡️ Turn right some degrees to start to find another cups with another route    
 >
 > These algorithm of movements can be easily understood with figure below:  
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/Screen%20Shot%202020-08-04%20at%2016.07.39.png" width="450px" height="350px">  
@@ -41,9 +41,16 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > 1. IF DISTANCE OF OBSTACLES(CUP) IS LESS THAN 2CM  
 > Set "holding" function to the motor of hands to turn 200 degrees.  
 > 2. IF DISTANCE OF OBSTACLES(CUP) IS OVER 2CM  
-> "do nothing" to the motor of hands    
+> Set "do nothing" function to the motor of hands    
 
-##### iii) colour sensor?
+##### iii) Controlling colour sensor
+> Colour sensor can identify each colour (red, black, white etc.)  
+> 1. IF COLOUR SENSOR READ BLACK(boundary line),  
+> "stop movement" and "go backwards" until red line  
+> 2. IF COLOUR SENSOR READ READ(home line),  
+> In the case of "Red", variable was used to excute two cases in the code:
+> _first red meeting_ : "stop movement" ➡️ move backwards a bit for putting cup within red line ➡️ un-holding cup ➡️ move backwards a bit not to hold the cup which already has been hold ➡️ turn right some degree for starting to go another route  
+> _second red meeting_ : go straight even it meets red line (starting)  
 
 ### 3. How to build code
 > The code can be built as two ways :
