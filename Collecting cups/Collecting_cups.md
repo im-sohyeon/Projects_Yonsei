@@ -14,8 +14,8 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 > EV3 is designed with two hands as efficient way to pull / hold something as shown below.  
 > It has used three motors, two for wheels and one for holding/un-holding hands.  
 > It has used two sensors, one is colour sensor and the other is ultrasonic sensor.  
->  - Colour sensor is set in the bottom of the EV3 so that it can recognises the colours below it.  
->  - Ultrasonic sensor is set in the front of the EV3 so that it can recognises something in front.  
+>  - Colour sensor has been set in the bottom of the EV3 so that it can recognises the colours below it.  
+>  - Ultrasonic sensor has been set in the front of the EV3 so that it can recognises something in front.  
 >
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/IMG_9276.JPG" width="550px" height="350px">
 
