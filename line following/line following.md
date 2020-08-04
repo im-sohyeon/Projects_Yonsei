@@ -32,6 +32,8 @@ Making LEGO EV3 to move following black line
 ##### ii) Get data(reflected light) from colour sensor
 > Measure the extent of reflected light to see which variable of reflected light intensity can be used for deciding to turn right or left.
 > The reflected light intensity can be shown in the screen of EV3 Classroom.
+> Image below shows that how intensity of reflected light can be measured.  
+> <img src = "" width="450px" height="550px"> 
 
 ### 3. How to build code
 > The code can be built as two ways :
@@ -43,6 +45,7 @@ Making LEGO EV3 to move following black line
 ><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/IMG_0252.JPG" width="350px" height="300px">  
 > The other way is making code in the EV3 Classroom.  
 > This code is shown below.  
+> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/Screen%20Shot%202020-08-04%20at%2013.15.46.png" width="450px" height="550px">  
 
 ### 4. Results
 
