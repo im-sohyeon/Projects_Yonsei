@@ -9,7 +9,8 @@ Making LEGO EV3 to move following black line
 >2. Algorithm
 >3. How to build code
 >4. Results
->5. What do i learn?
+>5. Discussions
+
 ### 0. Hardware  
 > EV3 is designed with two hands as efficient way to pull / hold something as shown below.  
 > It has used three motors, two for wheels and one for holding/un-holding hands.  
@@ -59,3 +60,9 @@ Making LEGO EV3 to move following black line
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated 2.GIF" width="650px" height="350px">  
 > _full version of line following_  
 
+### 5. Discussions  
+> Since the code is made like bang-bang control, the robot does not follow black line naturally.  
+> Bang-bang control is a feedback controller which switches abruptly between two states, with realising any element that provides hysteresis. 
+> How to solve ?  
+> Using PID controller to make follwing smoothly.  
+> Implementing/ Installing(?) high quality sensors to identify black line exactly.
