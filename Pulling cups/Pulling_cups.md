@@ -53,7 +53,7 @@ For this, hands of EV3 is set as "open state" all the time.
 >_result 2 of pulling cups_
 
 ### 5. Discussions
-> Problem: Real movement of robot in results doe not make movement as same as ideal movement which mentioned in Algorithm of movement.  
+> Problem: Real movement of robot in results is not as same as ideal movement which mentioned in Algorithm of movement.  
 > How to solve this problem?  
 > 1. Check the performance of two different motors  
 > 2. Try to make ideal movement with many attempts to match movement algorithm  
