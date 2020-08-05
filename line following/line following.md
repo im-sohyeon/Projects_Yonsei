@@ -50,3 +50,6 @@ Making LEGO EV3 to move following black line
 
 ### 4. Results
 
+> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated.GIF" width="650px" height="350px">
+
+
