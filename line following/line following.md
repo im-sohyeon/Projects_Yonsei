@@ -52,7 +52,7 @@ Making LEGO EV3 to move following black line
 > The EV3 robot could follow black line successfully.  
 > However, it does not naturally follow the black line because the code is made as kind of digital logic(0 and 1).  
 > In other words, turn left(0) when intensity of reflected light is less than some extent  
-> and turn right (1) when intensity of reflected light is more than some extent. (more likely to call "bang bang control")  
+> and turn right (1) when intensity of reflected light is more than some extent. (more likely to call "bang-bang control")  
 > So robot can control the direction to follow the black line. 
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated.GIF" width="650px" height="350px">  
 > _short version of line following_  
