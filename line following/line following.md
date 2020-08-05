@@ -56,6 +56,6 @@ Making LEGO EV3 to move following black line
 > So robot can control the direction to follow the black line. 
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated.GIF" width="650px" height="350px">  
 > _short version of line following_  
-> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated 2.GIF" width="650px" height="350px">
+> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated 2.GIF" width="650px" height="350px">  
 > _full version of line following_  
 
