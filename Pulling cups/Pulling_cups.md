@@ -49,4 +49,5 @@ For this, hands of EV3 is set as "open state" all the time.
 >_result 2 of pulling cups_
 
 
+아쉬운 점은: movement 가 생각대로 안 움직였다.
 
