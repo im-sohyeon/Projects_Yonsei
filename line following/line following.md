@@ -54,6 +54,8 @@ Making LEGO EV3 to move following black line
 > In other words, turn left(0) when intensity of reflected light is less than some extent  
 > and turn right (1) when intensity of reflected light is more than some extent. (more likely to call "bang bang control")  
 > So robot can control the direction to follow the black line. 
-> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated.GIF" width="650px" height="350px">
-
+> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated.GIF" width="650px" height="350px">  
+> _short version of line following_  
+> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/line%20following/image/animated 2.GIF" width="650px" height="350px">  
+> _full version of line following_  
 
