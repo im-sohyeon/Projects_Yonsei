@@ -55,7 +55,8 @@ For this, hands of EV3 is set as "open state" all the time.
 ### 5. Discussions
 > Problem:   
 > Since real movement of robot(as shown in results) is not as same as ideal movement which mentioned in Algorithm of movement,  
-> it sometimes could happen that robot could not include all cups in its route.  
+> it sometimes could happen that robot could not include all cups in its route. 
+>  
 > How to solve this problem?  
 > 1. Check the performance of two different motors,  
 > 2. And try to make ideal movement with many attempts to match movement algorithm  
