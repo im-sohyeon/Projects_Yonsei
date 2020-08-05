@@ -38,7 +38,7 @@ For this, hands of EV3 is set as "open state" all the time.
 > so that cups, which is inside of EV3's hand, can be located out of the black line.
 
 ### 3. How to build code
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/Screen%20Shot%202020-07-28%20at%2010.00.07.png" width="550px" height="450px">
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/Screen%20Shot%202020-07-28%20at%2010.00.24.png" width="550px" height="550px">
+><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/pulling_code.png" width="450px" height="650px">
+
 
 ### 4. Results
