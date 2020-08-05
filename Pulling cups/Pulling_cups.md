@@ -9,7 +9,8 @@ Making LEGO EV3 to pull cups over black square lines
 >2. Algorithm
 >3. How to build code
 >4. Results
->5. What do i learn?
+>5. Discussions
+
 ### 0. Hardware  
 > EV3 is designed with two hands as efficient way to pull / hold something as shown below.  
 > It has used three motors, two for wheels and one for holding/un-holding hands.  
@@ -51,6 +52,9 @@ For this, hands of EV3 is set as "open state" all the time.
 ><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/pullingcup2.GIF" width="550px" height="350px">  
 >_result 2 of pulling cups_
 
-
-아쉬운 점은: movement 가 생각대로 안 움직였다.
+### 5. Discussions
+> Problem: Real movement of robot in results doe not make movement as same as ideal movement which mentioned in Algorithm of movement.  
+> How to solve this problem?  
+> 1. Check the performance of two different motors  
+> 2. Try to make ideal movement with many attempts to match movement algorithm  
 
