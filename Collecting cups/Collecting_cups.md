@@ -1,5 +1,5 @@
 
-LEGO PROJECT - COLLECTING CUPS WITHIN RED-LINED HOME
+LEGO PROJECT - COLLECTING CUPS TO RED-LINED HOME
 ===
 Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 ---
