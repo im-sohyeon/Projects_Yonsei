@@ -62,7 +62,7 @@ Making LEGO EV3 to move following black line
 
 ### 5. Discussions  
 > Since the code is made like bang-bang control, the robot does not follow black line naturally.  
-> Bang-bang control is a feedback controller which switches abruptly between two states, with realising any element that provides hysteresis. 
+> (Bang-bang control is a feedback controller which switches abruptly between two states, with realising any element that provides hysteresis.)   
 > How to solve ?  
-> Using PID controller to make follwing smoothly.  
-> Implementing/ Installing(?) high quality sensors to identify black line exactly.
+> 1. Using PID controller to make follwing smoothly.  
+> 2. Implementing/ Installing(?) high quality sensors to identify black line exactly.
