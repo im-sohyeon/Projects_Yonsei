@@ -42,3 +42,11 @@ For this, hands of EV3 is set as "open state" all the time.
 
 
 ### 4. Results
+> There are two results of challenge called pulling cups.  
+><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/pullingcup.GIF" width="450px" height="650px">  
+>_result 1 of pulling cups_
+><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/pullingcup2.GIF" width="450px" height="650px">  
+>_result 2 of pulling cups_
+
+
+
