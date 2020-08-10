@@ -62,5 +62,4 @@ Making LEGO EV3 to collect/hold each cups and back to the red-lined home
 ><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/wholecode.png" width="450px" height="750px">
 
 ### 4. Results
-
-
+><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Collecting%20cups/image/collectingcup.GIF" width="350px" height="550px">
