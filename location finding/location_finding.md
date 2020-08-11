@@ -33,6 +33,39 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) ;
          printf("number %d is pushed, so the movement is stopped\n" ,i);
      }
 }
+//making random moving
+void randommove(int Row, int Column, int *rowplus, int *columnplus) {
+    srand((unsigned int)time(NULL));
+    int direction= rand() %8+ 0;
+    Column = rand() % 8 +1;
+    Row = rand() % 8 + 1;
+    switch(direction){
+        case 0: // East
+            *rowplus=Row+1; *columnplus=Column;
+            break;
+        case 1: // North East
+            *rowplus=Row+1; *columnplus=Column-1;
+            break;
+        case 2: // North
+            *rowplus=Row; *columnplus=Column-1;
+            break;
+        case 3: // North West
+            *rowplus=Row-1; *columnplus=Column-1;
+            break;
+        case 4: // West
+            *rowplus=Row-1; *columnplus=Column;
+            break;
+        case 5: // South West
+            *rowplus=Row-1; *columnplus=Column+1;
+            break;
+        case 6: // South
+            *rowplus=Row; *columnplus=Column+1;
+            break;
+        case 7: // South East
+            *rowplus=Row+1; *columnplus=Column+1;
+            break;
+    }
+}
 ~~~
 
 ### 1. Instruction of the challenge
