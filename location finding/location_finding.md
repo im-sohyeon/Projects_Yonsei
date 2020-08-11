@@ -5,21 +5,17 @@ FINDING & SHOWING CURRENT LOCATION
 Finding the location where the robot currently is
 ---
 ### Contents
->0. Hardware
->1. Instruction of the "challenge"
+>STEP 1. Ramdom location showing 
 >2. Algorithm
 >3. How to build code
 >4. Results
 >5. Discussions
 
-### 0. Hardware  
-> EV3 is designed with two hands as efficient way to pull / hold something as shown below.  
-> It has used three motors, two for wheels and one for holding/un-holding hands.  
-> It has used two sensors, one is colour sensor and the other is ultrasonic sensor.  
->  - Colour sensor has been set in the bottom of the EV3 so that it can recognises the colours below it.  
->  - Ultrasonic sensor has been set in the front of the EV3 so that it can figure out obstacles in front.  
->
-> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/IMG_9276.JPG" width="550px" height="400px">
+### STEP1. Random location showing
+> Building a code that
+> romdomly move ➡️ stop moving if "2"is pressed ➡️ represent the location as coordinate form
+
+> <img src = "" width="550px" height="400px">
 
 ### 1. Instruction of the challenge
 > This chanllenge is to make LEGO EV3 to pull cups which is located randomly to the out of black square lines as shown below.  
