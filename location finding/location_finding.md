@@ -5,15 +5,15 @@ FINDING & SHOWING CURRENT LOCATION
 Finding the location where the robot currently is
 ---
 ### Contents
->STEP 1. Ramdom location showing 
->2. Algorithm
->3. How to build code
->4. Results
->5. Discussions
+>STEP 1. Ramdom location showing   
+>2. Algorithm  
+>3. How to build code  
+>4. Results  
+>5. Discussions  
 
 ### STEP1. Random location showing
 > Building a code that
-> romdomly move ➡️ stop moving if "2"is pressed ➡️ represent the location as coordinate form
+> move ramdomly ➡️ stop moving if "2"is pressed ➡️ show the result of location as coordinate form  
 
 > <img src = "" width="550px" height="400px">
 
