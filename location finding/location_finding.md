@@ -6,13 +6,14 @@ Finding the location where the robot currently is
 ---
 ### Contents
 >STEP 1. Ramdom location showing   
->2. Algorithm  
+>STEP 2. location showing of continuous moving   
 >3. How to build code  
 >4. Results  
 >5. Discussions  
 
 ### STEP1. Random location showing
-> Building a code that
+> Building a code to make random movement and stop movement with showing the result of location when "2" is pressed.
+> Basic algorithm is :
 > move ramdomly ➡️ stop moving if "2"is pressed ➡️ show the result of location as coordinate form  
 ~~~
 void randommove(int Row, int Column, int *rowplus, int *columnplus) ;
@@ -68,10 +69,12 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) {
 }
 ~~~
 
-### 1. Instruction of the challenge
-> This chanllenge is to make LEGO EV3 to pull cups which is located randomly to the out of black square lines as shown below.  
+### STEP 2. location showing of continuous moving  
+> Making a continuous movement (not randomly as STEP1)
 >
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/IMG_0577.jpg" width="550px">
+
+
 ### 2. Algorithm
 ##### i) Moving within the black lines
 > Basically, the movement of the EV3 is made as :  
