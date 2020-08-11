@@ -15,7 +15,7 @@ Finding the location where the robot currently is
 > Building a code that
 > move ramdomly ➡️ stop moving if "2"is pressed ➡️ show the result of location as coordinate form  
 > ~~~
-void randommove(int Row, int Column, int *rowplus, int *columnplus) ; //randommove funciton
+ void randommove(int Row, int Column, int *rowplus, int *columnplus) ; //randommove funciton
 
  int main (void){
      int i=0;
@@ -33,8 +33,7 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) ; //randommo
      }
      //printf("the current location is (%d,%d)\n", Row, Column);
      printf("number %d is pushed, so the movement is stopped\n" ,i);
-}
-~~~
+} ~~~
 
 ### 1. Instruction of the challenge
 > This chanllenge is to make LEGO EV3 to pull cups which is located randomly to the out of black square lines as shown below.  
