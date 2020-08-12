@@ -70,7 +70,9 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) {
 ~~~
 
 ### STEP 2. location showing of continuous moving  
-> Making a continuous movement (not randomly as STEP1)
+> Making a continuous movement (not randomly as STEP1) as following y=x route.  
+> Building code to make continuous movement with following y=x graph route.   
+> 
 >
 > <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/IMG_0577.jpg" width="550px">
 
