@@ -13,7 +13,7 @@ Finding the location where the robot currently is
 
 ### STEP1. Random location showing
 > Building a code to make random movement and stop movement with showing the result of location when "2" is pressed.  
-> Basic algorithm is :
+> Basic algorithm is :  
 > move ramdomly ➡️ stop moving if "2"is pressed ➡️ show the result of location as coordinate form  
 ~~~
 void randommove(int Row, int Column, int *rowplus, int *columnplus) ;
@@ -72,7 +72,7 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) {
 ### STEP 2. location showing of continuous moving  
 > Making a continuous movement (not randomly as STEP1) as following y=x route.  
 > Building code to make continuous movement with following y=x graph route.   
-> Basic algorithm is :
+> Basic algorithm is :  
 > movement, following y=x graph route ➡️ stop moving if "enter"is pressed ➡️ show the result of location as coordinate form when it stops    
 >
 
