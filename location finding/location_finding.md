@@ -117,7 +117,46 @@ void delay(int number_of_seconds)
 > Basic algorithm is :  
 > making movement which follows circle route ➡️ show the result of location as coordinate form  
 > (+ delay function was added to show the coordinate location form in visible sequence)  
+~~~
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
 
+void delay(int number_of_seconds);
+double DegreesToRadians( double degrees );
+#define PI 3.141592
+     int main (void){
+         double x=0.0, y=0.0, x_o=0.0, y_o=0.0, thetha=0.0, radians=0.0;
+         while(1){
+             for(thetha=0.0;thetha<360;thetha++){
+                 double radians = DegreesToRadians( thetha );
+                 x=5*cos(radians);
+                 y=5*sin(radians);
+                 delay(50);
+                 printf("thetha = %lf\n",thetha);
+                 printf("the current location is (%lf,%lf)\n", x, y); //showing the location
+             }
+         }
+     }
+
+double DegreesToRadians( double degrees )
+{
+    return degrees * PI / 180;
+}
+//delay function
+void delay(int number_of_seconds)
+    {
+    // Converting time into milli_seconds
+    int milli_seconds = 1000 * number_of_seconds;
+    
+    // Storing start time
+    clock_t start_time = clock();
+    
+    // looping till required time is not achieved
+    while (clock() < start_time + milli_seconds);
+}
+~~~
 
 
 
