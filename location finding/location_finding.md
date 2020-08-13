@@ -112,7 +112,7 @@ void delay(int number_of_seconds)
 ~~~
 
 
-### STEP3. Location showing of continuous movement 2 (circle)  
+### STEP 3. Location showing of continuous movement 2 (circle)  
 > Building code to make continuous movement (not randomly as STEP1) as making circle route.    
 > Basic algorithm is :  
 > making movement which follows circle route(radius=5) ➡️ show the result of location as coordinate form  
