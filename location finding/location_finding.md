@@ -8,7 +8,7 @@ Finding the location where the robot currently is
 >STEP 1. Ramdom location showing   
 >STEP 2. Location showing of continuous movement 1 (y=x^2 graph)     
 >STEP 3. Location showing of continuous movement 2 (circle)  
->4. Results  
+>STEP 4. Results  
 >5. Discussions  
 
 ### STEP 1. Random location showing
@@ -162,16 +162,11 @@ void delay(int number_of_seconds)
 
 
 
-### 3. How to build code
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/pulling_code.png" width="450px" height="650px">
+### STEP 4. Giving specific condition 
 
 
 ### 4. Results
-> There are two results of challenge called pulling cups.  
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/pullingcup.GIF" width="550px" height="350px">  
->_result 1 of pulling cups_  
-><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/pullingcup2.GIF" width="550px" height="350px">  
->_result 2 of pulling cups_
+> 
 
 ### 5. Discussions
 > Problem:   
