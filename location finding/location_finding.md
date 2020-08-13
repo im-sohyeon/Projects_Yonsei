@@ -16,6 +16,11 @@ Finding the location where the robot currently is
 > Basic algorithm is :  
 > move ramdomly ➡️ stop moving if "2"is pressed ➡️ show the result of location as coordinate form  
 ~~~
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
+
 void randommove(int Row, int Column, int *rowplus, int *columnplus) ;
 
  int main (void){
@@ -76,6 +81,11 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) {
 > making movement which follows y=x^2 graph route ➡️ show the result of location as coordinate form  
 > (+ delay function was added to show the coordinate location form in visible sequence)
 ~~~
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
+
 void delay(int number_of_seconds);
      int main (void){
          int x=0, y=0, x_o=0, y_o=0;
