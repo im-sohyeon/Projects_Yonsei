@@ -139,11 +139,12 @@ double DegreesToRadians( double degrees );
              }
          }
      }
-
+//degrees to radians 
 double DegreesToRadians( double degrees )
 {
     return degrees * PI / 180;
 }
+
 //delay function
 void delay(int number_of_seconds)
     {
