@@ -74,7 +74,31 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) {
 > Building code to make continuous movement with following y=x graph route.   
 > Basic algorithm is :  
 > movement, following y=x graph route ➡️ stop moving if "enter"is pressed ➡️ show the result of location as coordinate form when it stops    
->
+~~~
+void delay(int number_of_seconds);
+     int main (void){
+         int x=0, y=0, x_o=0, y_o=0;
+         while(1){
+                x=x_o+x;
+                x++;
+                y=y_o+ (x*x);
+                delay(300);
+                printf("the current location is (%d,%d)\n", x, y); //showing the location
+         }
+     }
+//delay function
+void delay(int number_of_seconds)
+    {
+    // Converting time into milli_seconds
+    int milli_seconds = 1000 * number_of_seconds;
+    
+    // Storing start time
+    clock_t start_time = clock();
+    
+    // looping till required time is not achieved
+    while (clock() < start_time + milli_seconds);
+}
+~~~
 
 
 ### 2. Algorithm
