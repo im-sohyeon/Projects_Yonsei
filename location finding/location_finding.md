@@ -117,6 +117,7 @@ void delay(int number_of_seconds)
 > Basic algorithm is :  
 > making movement which follows circle route ➡️ show the result of location as coordinate form  
 > (+ delay function was added to show the coordinate location form in visible sequence)  
+> To make movement of circle, angle(represents as thetha in the code) which converts to radians is used as an incresement.   
 ~~~
 #include <stdio.h>
 #include <stdlib.h>
