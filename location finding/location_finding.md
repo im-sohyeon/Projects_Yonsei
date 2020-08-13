@@ -6,12 +6,12 @@ Finding the location where the robot currently is
 ---
 ### Contents
 >STEP 1. Ramdom location showing   
->STEP 2. location showing of continuous moving   
->3. How to build code  
+>STEP 2. Location showing of continuous movement 1 (y=x^2 graph)     
+>STEP 3. Location showing of continuous movement 2 (circle)  
 >4. Results  
 >5. Discussions  
 
-### STEP1. Random location showing
+### STEP 1. Random location showing
 > Building a code to make random movement and stop movement with showing the result of location when "2" is pressed.  
 > Basic algorithm is :  
 > move ramdomly ➡️ stop moving if "2"is pressed ➡️ show the result of location as coordinate form  
@@ -69,11 +69,12 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) {
 }
 ~~~
 
-### STEP 2. location showing of continuous moving  
-> Making a continuous movement (not randomly as STEP1) as following y=x route.  
-> Building code to make continuous movement with following y=x graph route.   
+### STEP 2. Location showing of continuous movement 1 (y=x^2 graph)  
+> Making a continuous movement (not randomly as STEP1) as following y=x^2 route.  
+> Building code to make continuous movement with following y=x^2 graph route.   
 > Basic algorithm is :  
-> movement, following y=x graph route ➡️ stop moving if "enter"is pressed ➡️ show the result of location as coordinate form when it stops    
+> making movement which follows y=x^2 graph route ➡️ show the result of location as coordinate form  
+> (+ delay function was added to show the coordinate location form in visible sequence)
 ~~~
 void delay(int number_of_seconds);
      int main (void){
@@ -81,7 +82,7 @@ void delay(int number_of_seconds);
          while(1){
                 x=x_o+x;
                 x++;
-                y=y_o+ (x*x);
+                y=y_o+(x*x);
                 delay(300);
                 printf("the current location is (%d,%d)\n", x, y); //showing the location
          }
@@ -101,22 +102,14 @@ void delay(int number_of_seconds)
 ~~~
 
 
-### 2. Algorithm
-##### i) Moving within the black lines
-> Basically, the movement of the EV3 is made as :  
-> Go straight until meet black line ➡️ Turn back (right side) ➡️ Go straight until meet black line  ➡️ Turn back (left side) ...(repeat)   
-> This algorithm of movement is shown below :  
-> <img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/movement.png" width="450px">
+### STEP3. Location showing of continuous movement 2 (circle)  
+> Building code to make continuous movement (not randomly as STEP1) as making circle route.    
+> Basic algorithm is :  
+> making movement which follows circle route ➡️ show the result of location as coordinate form  
+> (+ delay function was added to show the coordinate location form in visible sequence)  
 
 
-##### ii) Holding cups
-> It is no need to hold each cups one by one in this challenge for making high possibility in catching all cups in a same line.
-For this, hands of EV3 is set as "open state" all the time.
 
-##### iii) Pulling cups over black lines
-> Make EV3 to move until black lines by using colour sensor.
-> If colour sensor recognises the black line, EV3 stops to move
-> so that cups, which is inside of EV3's hand, can be located out of the black line.
 
 ### 3. How to build code
 ><img src = "https://github.com/im-sohyeon/Projects_Yonsei/blob/master/Pulling%20cups/image/pulling_code.png" width="450px" height="650px">
