@@ -79,7 +79,7 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) {
 > Building code to make continuous movement with following y=x^2 graph route.   
 > Basic algorithm is :  
 > making movement which follows y=x^2 graph route ➡️ show the result of location as coordinate form  
-> (+ delay function was added to show the coordinate location form in visible sequence)
+> (+ delay function was added to show the coordinates of location in visible sequence)
 ~~~
 #include <stdio.h>
 #include <stdlib.h>
@@ -115,8 +115,8 @@ void delay(int number_of_seconds)
 ### STEP3. Location showing of continuous movement 2 (circle)  
 > Building code to make continuous movement (not randomly as STEP1) as making circle route.    
 > Basic algorithm is :  
-> making movement which follows circle route ➡️ show the result of location as coordinate form  
-> (+ delay function was added to show the coordinate location form in visible sequence)  
+> making movement which follows circle route(radius=5) ➡️ show the result of location as coordinate form  
+> (+ delay function was added to show the coordinates of location in visible sequence)  
 > To make movement of circle, angle(represents as thetha in the code) which converts to radians is used as an increment factor in for loop.   
 ~~~
 #include <stdio.h>
