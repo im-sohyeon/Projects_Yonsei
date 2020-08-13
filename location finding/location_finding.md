@@ -34,7 +34,7 @@ void randommove(int Row, int Column, int *rowplus, int *columnplus) ;
          printf("number %d is pushed, so the movement is stopped\n" ,i);
      }
 }
-//making random moving
+//making random movement
 void randommove(int Row, int Column, int *rowplus, int *columnplus) {
     srand((unsigned int)time(NULL));
     int direction= rand() %8+ 0;
