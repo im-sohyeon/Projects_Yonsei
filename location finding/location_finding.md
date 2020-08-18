@@ -163,7 +163,10 @@ void delay(int number_of_seconds)
 
 
 ### STEP 4. Giving specific condition 
-
+> In the real world, there are many conditions which affects the movement of wheels.  
+> For making it real, giving some conditions in movement during drawing/moving circle.   
+> The condition set here was:
+> 1. change speed 
 
 ### 4. Results
 > 
