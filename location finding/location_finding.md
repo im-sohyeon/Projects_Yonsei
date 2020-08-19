@@ -8,7 +8,7 @@ Finding the location where the robot currently is
 >STEP 1. Ramdom location showing   
 >STEP 2. Location showing of continuous movement 1 (y=x^2 graph)     
 >STEP 3. Location showing of continuous movement 2 (circle)  
->STEP 4. Results  
+>STEP 4. Giving specific condition  
 >5. Discussions  
 
 ### STEP 1. Random location showing
@@ -166,8 +166,56 @@ void delay(int number_of_seconds)
 > In the real world, there are many conditions which affects the movement of wheels.  
 > For making it real, giving some conditions in movement during drawing/moving circle.   
 > The condition set here was:
-> 1. change speed 
+> 1. change speed (fast to slow)
+~~~
 
+void delay(int number_of_seconds);
+double DegreesToRadians( double degrees );
+#define PI 3.141592
+     int main (void){
+         int a=0;
+         int time=20;
+         double x=0.0, y=0.0, x_o=0.0, y_o=0.0, thetha=0.0, radians=0.0;
+         while(1){
+             
+             for(thetha=0.0; thetha<360; thetha++){
+                 //for(time=50;time<60;time++){
+                 double radians = DegreesToRadians( thetha );
+                 x=5*cos(radians);
+                 y=5*sin(radians);
+
+                 delay(time++); //control time of printf function
+                 printf("thetha = %lf\n",thetha);
+                 printf("the current location is (%lf,%lf)\n", x, y); //showing the location
+                 
+                 /* //hmmm
+                 if((a = getchar()) != EOF){
+                     printf("Since 2 is pressed, the movement is stopped\n");
+                     printf("total time taken is \n");
+                      break;
+                 }*/
+                 //}
+             }
+         }
+     }
+
+double DegreesToRadians( double degrees )
+{
+    return degrees * PI / 180;
+}
+//delay function
+void delay(int number_of_seconds)
+    {
+    // Converting time into milli_seconds
+    int milli_seconds = 1000 * number_of_seconds;
+    
+    // Storing start time
+    clock_t start_time = clock();
+    
+    // looping till required time is not achieved
+    while (clock() < start_time + milli_seconds);
+}
+~~~
 ### 4. Results
 > 
 
