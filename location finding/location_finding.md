@@ -187,14 +187,6 @@ double DegreesToRadians( double degrees );
                  delay(time++); //control time of printf function
                  printf("thetha = %lf\n",thetha);
                  printf("the current location is (%lf,%lf)\n", x, y); //showing the location
-                 
-                 /* //hmmm
-                 if((a = getchar()) != EOF){
-                     printf("Since 2 is pressed, the movement is stopped\n");
-                     printf("total time taken is \n");
-                      break;
-                 }*/
-                 //}
              }
          }
      }
