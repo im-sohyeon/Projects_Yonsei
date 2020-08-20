@@ -168,28 +168,26 @@ void delay(int number_of_seconds)
 > The condition set here was:
 > 1. change speed (slow to fast)
 ~~~
-
 void delay(int number_of_seconds);
 double DegreesToRadians( double degrees );
 #define PI 3.141592
-     int main (void){
-         int a=0;
-         int time=20;
-         double x=0.0, y=0.0, x_o=0.0, y_o=0.0, thetha=0.0, radians=0.0;
-         while(1){
-             
-             for(thetha=0.0; thetha<360; thetha++){
-                 //for(time=50;time<60;time++){
-                 double radians = DegreesToRadians( thetha );
-                 x=5*cos(radians);
-                 y=5*sin(radians);
-
-                 delay(time++); //control time of printf function
-                 printf("thetha = %lf\n",thetha);
-                 printf("the current location is (%lf,%lf)\n", x, y); //showing the location
-             }
-         }
-     }
+int main (void){
+    int time=200;
+    double x=0.0, y=0.0, x_o=0.0, y_o=0.0, thetha=0.0, radians=0.0;
+    while(1){
+        
+        for(thetha=0.0; thetha<360; thetha++){
+            //for(time=50;time<60;time++){
+            double radians = DegreesToRadians( thetha );
+            x=5*cos(radians);
+            y=5*sin(radians);
+            
+            delay(time--); //control time of printf function
+            printf("thetha = %lf\n",thetha);
+            printf("the current location is (%lf,%lf)\n", x, y); //showing the location
+        }
+    }
+}
 
 double DegreesToRadians( double degrees )
 {
@@ -197,7 +195,7 @@ double DegreesToRadians( double degrees )
 }
 //delay function
 void delay(int number_of_seconds)
-    {
+{
     // Converting time into milli_seconds
     int milli_seconds = 1000 * number_of_seconds;
     
