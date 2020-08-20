@@ -166,7 +166,7 @@ void delay(int number_of_seconds)
 > In the real world, there are many conditions which affects the movement of wheels.  
 > For making it real, giving some conditions in movement during drawing/moving circle.   
 > The condition set here was:
-> 1. change speed (fast to slow)
+> 1. change speed (slow to fast)
 ~~~
 
 void delay(int number_of_seconds);
