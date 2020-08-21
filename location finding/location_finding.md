@@ -172,7 +172,7 @@ void delay(int number_of_seconds);
 double DegreesToRadians( double degrees );
 #define PI 3.141592
 int main (void){
-    int time=200;
+    int time=360;
     double x=0.0, y=0.0, x_o=0.0, y_o=0.0, thetha=0.0, radians=0.0;
     while(1){
         
